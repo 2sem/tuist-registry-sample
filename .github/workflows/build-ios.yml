@@ -21,9 +21,9 @@ jobs:
           path: Tuist/.build
           key: ${{ runner.os }}-${{ hashFiles('Tuist/Package.resolved') }}
 
-      - name: Resolve dependencies
-        if: steps.cache-restore.outputs.cache-hit != 'true'
-        run: xcodebuild -resolvePackageDependencies -clonedSourcePackagesDirPath .build
+    #   - name: Resolve dependencies
+    #     if: steps.cache-restore.outputs.cache-hit != 'true'
+    #     run: xcodebuild -resolvePackageDependencies -clonedSourcePackagesDirPath .build
 
       - name: Install Mise
         uses: jdx/mise-action@v2
