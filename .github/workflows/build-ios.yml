@@ -1,0 +1,28 @@
+
+name: Build IOS
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.ref }}/ios/build
+  cancel-in-progress: true
+
+jobs:
+  install-pods:
+    runs-on: macos-15
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+
+      - name: Setup Registry
+        uses: jdx/mise-action@v2
+        run: tuist registry setup
+
+      - name: Install Packages
+        uses: jdx/mise-action@v2
+        run: tuist install
+
+      - name: Build
+        uses: jdx/mise-action@v2
+        run: tuist build
+        
