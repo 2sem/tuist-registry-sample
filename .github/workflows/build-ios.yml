@@ -14,15 +14,14 @@ jobs:
       - name: Checkout project
         uses: actions/checkout@v4
 
-      - name: Setup Registry
+      - name: Install Mise
         uses: jdx/mise-action@v2
+
+      - name: Setup Registry
         run: tuist registry setup
 
       - name: Install Packages
-        uses: jdx/mise-action@v2
         run: tuist install
 
       - name: Build
-        uses: jdx/mise-action@v2
         run: tuist build
-        
