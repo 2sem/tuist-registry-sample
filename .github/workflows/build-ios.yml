@@ -23,5 +23,8 @@ jobs:
       - name: Install Packages
         run: tuist install
 
+      - name: Generate Project
+        run: tuist install
+
       - name: Build
         run: tuist build
