@@ -1,0 +1,135 @@
+{
+  "originHash" : "1ead8a8b188354c36a4dd88c63b8bc959476c4a5a0c2e370da0d421cfa00a65e",
+  "pins" : [
+    {
+      "identity" : "alamofire.alamofire",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "5.11.0"
+      }
+    },
+    {
+      "identity" : "apple.swift-collections",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "onevcat.kingfisher",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "7.12.0"
+      }
+    },
+    {
+      "identity" : "pointfreeco.combine-schedulers",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "pointfreeco.swift-case-paths",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "1.7.2"
+      }
+    },
+    {
+      "identity" : "pointfreeco.swift-clocks",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "1.0.6"
+      }
+    },
+    {
+      "identity" : "pointfreeco.swift-composable-architecture",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "1.23.1"
+      }
+    },
+    {
+      "identity" : "pointfreeco.swift-concurrency-extras",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "1.3.2"
+      }
+    },
+    {
+      "identity" : "pointfreeco.swift-custom-dump",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "1.3.4"
+      }
+    },
+    {
+      "identity" : "pointfreeco.swift-dependencies",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "1.10.1"
+      }
+    },
+    {
+      "identity" : "pointfreeco.swift-identified-collections",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "1.1.1"
+      }
+    },
+    {
+      "identity" : "pointfreeco.swift-navigation",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "2.6.0"
+      }
+    },
+    {
+      "identity" : "pointfreeco.swift-perception",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "2.0.9"
+      }
+    },
+    {
+      "identity" : "pointfreeco.swift-sharing",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "2.7.4"
+      }
+    },
+    {
+      "identity" : "swiftlang.swift-syntax",
+      "kind" : "registry",
+      "location" : "",
+      "state" : {
+        "version" : "602.0.0"
+      }
+    },
+    {
+      "identity" : "xctest-dynamic-overlay",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/xctest-dynamic-overlay",
+      "state" : {
+        "revision" : "34e463e98ab8541c604af706c99bed7160f5ec70",
+        "version" : "1.8.1"
+      }
+    }
+  ],
+  "version" : 3
+}

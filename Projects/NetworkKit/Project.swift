@@ -2,6 +2,9 @@ import ProjectDescription
 
 let project = Project(
     name: "NetworkKit",
+    packages: [
+        .package(id: "alamofire.alamofire", from: "5.9.0"),
+    ],
     targets: [
         .target(
             name: "NetworkKit",
@@ -12,7 +15,7 @@ let project = Project(
             sources: ["Sources/**"],
             dependencies: [
                 // Using registry packages via external dependencies
-                .external(name: "Alamofire"),
+                .package(product: "Alamofire"),
             ]
         ),
         .target(

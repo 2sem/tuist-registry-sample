@@ -2,6 +2,10 @@ import ProjectDescription
 
 let project = Project(
     name: "App",
+    packages: [
+        .package(id: "pointfreeco.swift-composable-architecture", from: "1.0.0"),
+        .package(id: "onevcat.kingfisher", from: "7.0.0"),
+    ],
     targets: [
         .target(
             name: "App",
@@ -23,8 +27,8 @@ let project = Project(
                 .project(target: "NetworkKit", path: "../NetworkKit"),
 
                 // Registry package dependencies
-                .external(name: "ComposableArchitecture"),
-                .external(name: "Kingfisher"),
+                .package(product: "ComposableArchitecture"),
+                .package(product: "Kingfisher"),
             ]
         ),
         .target(
