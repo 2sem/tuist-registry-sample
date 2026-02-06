@@ -10,6 +10,8 @@ let tuist = Tuist(
         generationOptions: .options(
             // Optional: Enable caching for faster builds
             // enableCaching: true
+            // Eleminate 'tuist registry setup'
+            // registryEnabled: true
         )
     )
 )
